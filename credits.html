@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SubLink AI: Credits &amp; licences</title>
+  <link rel="icon" href="data:,">
+  <style>
+    :root { --bg: #f7f8f5; --card: #ffffff; --ink: #1d2a22; --soft: #5b6b61; --line: #e3e8e2; --accent: #14a06a; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #111714; --card: #1a221d; --ink: #eef3ef; --soft: #9fb0a5; --line: #2a352e; --accent: #5be8a8; } }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 "Nunito", system-ui, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 40px 16px 60px; }
+    h1 { font-size: 28px; margin: 0 0 6px; }
+    h2 { font-size: 18px; margin: 32px 0 10px; }
+    p { color: var(--soft); margin: 0 0 12px; }
+    ul { list-style: none; padding: 0; margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+    li { padding: 12px 16px; border-top: 1px solid var(--line); }
+    li:first-child { border-top: 0; }
+    li b { display: block; }
+    li span { color: var(--soft); font-size: 14px; }
+    a { color: var(--accent); }
+    .note { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px 16px; margin-top: 10px; font-size: 14px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Credits &amp; licences</h1>
+  <p>SubLink AI is built with these open-source projects and models. Thank you to everyone who made them.</p>
+
+  <h2>Built into the extension</h2>
+  <ul>
+    <li><b>Nunito</b> and <b>Fredoka</b> fonts <span>SIL Open Font License 1.1 · <a href="https://openfontlicense.org" target="_blank" rel="noopener">licence</a></span></li>
+    <li><b>three.js</b>: Hap in 3D <span>MIT License · <a href="https://github.com/mrdoob/three.js/blob/dev/LICENSE" target="_blank" rel="noopener">licence</a></span></li>
+    <li><b>ts-fsrs</b>: review scheduling (FSRS) <span>MIT License · <a href="https://github.com/open-spaced-repetition/ts-fsrs/blob/main/LICENSE" target="_blank" rel="noopener">licence</a></span></li>
+    <li><b>ONNX Runtime Web</b>: runs the offline voice and translation models <span>MIT License · <a href="https://github.com/microsoft/onnxruntime/blob/main/LICENSE" target="_blank" rel="noopener">licence</a></span></li>
+    <li><b>WebLLM</b> (MLC AI): runs Qwen in your browser <span>Apache License 2.0 · <a href="https://github.com/mlc-ai/web-llm/blob/main/LICENSE" target="_blank" rel="noopener">licence</a></span></li>
+  </ul>
+
+  <h2>Downloaded only if you choose them</h2>
+  <ul>
+    <li><b>Qwen3</b> language models (Qwen team, Alibaba Cloud) <span>Apache License 2.0 · <a href="https://huggingface.co/Qwen/Qwen3-1.7B" target="_blank" rel="noopener">model card</a></span></li>
+    <li><b>IndicTrans2</b> translation model (AI4Bharat) <span>MIT License · <a href="https://github.com/AI4Bharat/IndicTrans2" target="_blank" rel="noopener">project</a></span></li>
+    <li><b>MMS text-to-speech</b> voices (Meta AI) <span>CC BY-NC 4.0, non-commercial use · <a href="https://huggingface.co/facebook/mms-tts" target="_blank" rel="noopener">model card</a></span></li>
+    <li><b>Piper</b> voice engine and the Malayalam voice "meera" (Rhasspy) <span>Engine: MIT License · voice: see its <a href="https://huggingface.co/rhasspy/piper-voices/tree/main/ml/ml_IN/meera/medium" target="_blank" rel="noopener">model card</a></span></li>
+  </ul>
+
+  <div class="note">AI answers come from the service you pick in Setup (for example Google Gemini, OpenAI, xAI or DeepSeek), using your own key. That service's terms apply to what you send it.</div>
+</main>
+</body>
+</html>

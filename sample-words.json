@@ -1,0 +1,74 @@
+{
+ "words": [
+  {
+   "id": "sample-1",
+   "word": "hola",
+   "line": "¡Hola! ¿Qué tal?",
+   "title": "Sample show",
+   "meaning": "Hello / hi. A friendly greeting at any time of day."
+  },
+  {
+   "id": "sample-2",
+   "word": "gracias",
+   "line": "Muchas gracias por todo.",
+   "title": "Sample show",
+   "meaning": "Thank you. **Muchas gracias** = thank you very much."
+  },
+  {
+   "id": "sample-3",
+   "word": "ahora",
+   "line": "Tenemos que irnos ahora.",
+   "title": "Sample show",
+   "meaning": "Now / right now."
+  },
+  {
+   "id": "sample-4",
+   "word": "entender",
+   "line": "No entiendo lo que dices.",
+   "title": "Sample show",
+   "meaning": "To understand. **Entiendo** = I understand; **no entiendo** = I don't understand."
+  },
+  {
+   "id": "sample-5",
+   "word": "todavía",
+   "line": "Todavía no ha llegado.",
+   "title": "Sample show",
+   "meaning": "Still / yet. **Todavía no** = not yet."
+  },
+  {
+   "id": "sample-6",
+   "word": "quizás",
+   "line": "Quizás mañana.",
+   "title": "Sample show",
+   "meaning": "Maybe / perhaps."
+  },
+  {
+   "id": "sample-7",
+   "word": "echar de menos",
+   "line": "Te echo de menos.",
+   "title": "Sample show",
+   "meaning": "To miss (someone). **Te echo de menos** = I miss you."
+  },
+  {
+   "id": "sample-8",
+   "word": "vale",
+   "line": "Vale, nos vemos luego.",
+   "title": "Sample show",
+   "meaning": "OK / alright (very common in Spain)."
+  },
+  {
+   "id": "sample-9",
+   "word": "bonjour",
+   "line": "Bonjour, comment ça va ?",
+   "title": "Sample show",
+   "meaning": "Hello / good morning (French)."
+  },
+  {
+   "id": "sample-10",
+   "word": "ありがとう",
+   "line": "本当にありがとう。",
+   "title": "Sample show",
+   "meaning": "Thank you (Japanese, casual: arigatō)."
+  }
+ ]
+}
