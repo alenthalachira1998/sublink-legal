@@ -3,105 +3,144 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy: SubLink AI and SuperHap</title>
-  <meta name="description" content="How the SubLink AI Chrome extension and the SuperHap iPhone app handle your data.">
-  <style>
-    :root { --bg: #f7f8f5; --card: #ffffff; --ink: #1d2a22; --soft: #55655b; --line: #e3e8e2; --accent: #0b6e43; }
-    @media (prefers-color-scheme: dark) { :root { --bg: #111714; --card: #1a221d; --ink: #eef3ef; --soft: #a5b5aa; --line: #2a352e; --accent: #5be8a8; } }
-    body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; }
-    main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
-    h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; }
-    h2 { font-size: 21px; margin: 36px 0 10px; }
-    h3 { font-size: 17px; margin: 22px 0 6px; }
-    p, li { color: var(--soft); }
-    strong { color: var(--ink); }
-    a { color: var(--accent); }
-    .updated { font-size: 15px; margin: 0 0 24px; }
-    .summary { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 6px 20px; }
-    table { width: 100%; border-collapse: collapse; font-size: 15px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
-    th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-top: 1px solid var(--line); }
-    th { color: var(--ink); }
-    td { color: var(--soft); }
-    .wrap { overflow-x: auto; }
-  </style>
+  <title>Privacy Policy · SubLink AI &amp; SuperHap</title>
+  <meta name="description" content="How the SubLink AI Chrome extension and the SuperHap iPhone app handle your data: no account, no server of ours, your words stay on your devices.">
+  <link rel="icon" href="sublink.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main>
-  <h1>Privacy Policy</h1>
-  <p>For the <strong>SubLink AI</strong> Chrome extension and the <strong>SuperHap</strong> iPhone app, made by Alethetic Labs, Calgary, Alberta, Canada.</p>
-  <p class="updated">Last updated: November 16, 2026</p>
+  <header class="hero">
+    <div class="glow g1"></div><div class="glow g2"></div>
+    <div class="wrap">
+      <div class="apps">
+        <span class="app"><img src="sublink.png" alt="" width="44" height="44"> SubLink AI</span>
+        <span class="amp">&amp;</span>
+        <span class="app"><img src="superhap.svg" alt="" width="44" height="44"> SuperHap</span>
+      </div>
+      <h1>Privacy Policy</h1>
+      <p class="lede">Your words are yours. We don't run a server that collects them, and you never need an account.</p>
+      <p class="meta"><span class="pill">Last updated November 16, 2026</span><span class="by">Alethetic Labs · Calgary, Canada</span></p>
+    </div>
+  </header>
 
-  <div class="summary">
-    <p><strong>In short:</strong> we don't run a server that collects your data, and you don't need an account. Your words, settings and review progress stay on your own computer and phone. Text is only sent to an AI service when you use one, and it goes straight from your device to the service you picked, using your own key. We don't sell your data, show ads or track you.</p>
-  </div>
+  <main class="wrap">
+    <section class="promises" aria-label="In short">
+      <div class="promise"><span class="ico">🙅</span><h3>No account</h3><p>No sign-up, no email, no password. Just install and learn.</p></div>
+      <div class="promise"><span class="ico">🏠</span><h3>Stays on your devices</h3><p>Words, settings and progress live on your computer and phone.</p></div>
+      <div class="promise"><span class="ico">🔑</span><h3>Straight to your AI</h3><p>Requests go from you to the AI you picked, with your own key. Never through us.</p></div>
+      <div class="promise"><span class="ico">🚫</span><h3>No ads, no tracking</h3><p>No analytics, no ad tools, and we never sell or share your data.</p></div>
+    </section>
 
-  <h2>1. What stays on your devices</h2>
-  <p>These are stored only on your computer (in Chrome's extension storage) or on your iPhone, and are never sent to us:</p>
-  <ul>
-    <li>Your settings, including the app's language and your daily reminder time.</li>
-    <li>Your AI service keys (for example a Google Gemini key). On the iPhone, a key you choose to share from the extension is kept in the phone's secure storage (the iOS Keychain).</li>
-    <li>The words you save, their meanings, your quizzes and flashcards, and your review progress.</li>
-    <li>Downloaded offline models (voices, translation and in-browser AI), cached in your browser.</li>
-  </ul>
-  <p>You can delete all of it at any time: remove the extension, or use "Remove everything from this phone" in SuperHap's Settings, or delete the app.</p>
+    <div class="layout">
+      <nav class="toc" aria-label="Contents">
+        <p class="toc-title">On this page</p>
+        <a href="#device">What stays on your devices</a>
+        <a href="#ai">What goes to an AI service</a>
+        <a href="#subtitles">Reading subtitles</a>
+        <a href="#sync">Syncing with your phone</a>
+        <a href="#downloads">Downloads</a>
+        <a href="#payments">Payments</a>
+        <a href="#iphone">iPhone permissions</a>
+        <a href="#dont">What we don't do</a>
+        <a href="#children">Children</a>
+        <a href="#help">Help, changes &amp; contact</a>
+      </nav>
 
-  <h2>2. What is sent to an AI service, and when</h2>
-  <p>When you hover a word, ask for a translation, explanation or recap, chat with Hap, or play a natural voice, SubLink AI or SuperHap sends the text needed for that request to the AI service <strong>you chose in Setup</strong>. That is usually the subtitle line, the word, the show's title and recent lines for context, or your chat message. With "talk to Hap" on the iPhone, your recorded voice is sent to Google Gemini so it can be written down as text.</p>
-  <p>The request goes directly from your device to that service with your own key. It does not pass through us, and we can't see it. The services you can choose are:</p>
-  <div class="wrap">
-  <table>
-    <tr><th>Service</th><th>Its privacy policy</th></tr>
-    <tr><td>Google Gemini</td><td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a> and the <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">Gemini API terms</a></td></tr>
-    <tr><td>OpenAI</td><td><a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">openai.com/policies/privacy-policy</a></td></tr>
-    <tr><td>xAI (Grok)</td><td><a href="https://x.ai/legal/privacy-policy" target="_blank" rel="noopener">x.ai/legal/privacy-policy</a></td></tr>
-    <tr><td>DeepSeek</td><td><a href="https://platform.deepseek.com/downloads/DeepSeek%20Privacy%20Policy.html" target="_blank" rel="noopener">DeepSeek privacy policy</a></td></tr>
-    <tr><td>A custom service you enter</td><td>That service's own policy</td></tr>
-  </table>
-  </div>
-  <p>Some choices send nothing anywhere: <strong>Qwen in your browser</strong>, <strong>Ollama on your computer</strong>, <strong>Chrome's built-in AI</strong> and <strong>quick translation only</strong> all run on your own computer.</p>
-  <p>On a free Gemini key, Google may use what you send to improve its products. If that matters to you, use a paid key or one of the on-device options.</p>
+      <div class="sections">
+        <section id="device" class="card">
+          <h2><span class="n">1</span>What stays on your devices</h2>
+          <p>These are stored only on your computer (in Chrome's extension storage) or on your iPhone, and are never sent to us:</p>
+          <ul>
+            <li>Your settings, including the app's language and your daily reminder time.</li>
+            <li>Your AI service keys, for example a Google Gemini key. On the iPhone, a key you choose to share from the extension is kept in the phone's secure storage (the iOS Keychain).</li>
+            <li>The words you save, their meanings, your quizzes and flashcards, and your review progress.</li>
+            <li>Downloaded offline models (voices, translation and in-browser AI), cached in your browser.</li>
+          </ul>
+          <p class="tip">You can delete all of it at any time: remove the extension, use <b>Remove everything from this phone</b> in SuperHap's Settings, or delete the app.</p>
+        </section>
 
-  <h2>3. Reading subtitles</h2>
-  <p>On Netflix, Prime Video and YouTube, the extension reads the subtitles shown on the page, and the subtitle tracks the episode offers, so it can explain and translate them. Subtitles are kept in the browser's memory while you watch. They are only sent anywhere as part of an AI request you make (section 2), or to your own phone (section 4). The extension doesn't run on other websites.</p>
+        <section id="ai" class="card">
+          <h2><span class="n">2</span>What goes to an AI service, and when</h2>
+          <p>When you hover a word, ask for a translation, explanation or recap, chat with Hap, or play a natural voice, the text needed for that request is sent to the AI service <b>you chose in Setup</b>. That's usually the subtitle line, the word, the show's title and a few recent lines for context, or your chat message. When you talk to Hap on the iPhone, your recording is sent to Google Gemini so it can be written down as text.</p>
+          <p>The request goes directly from your device to that service, with your own key. It doesn't pass through us, and we can't see it.</p>
+          <div class="table">
+            <div class="row head"><span>Service</span><span>Its privacy policy</span></div>
+            <div class="row"><span>Google Gemini</span><span><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> · <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">Gemini API terms</a></span></div>
+            <div class="row"><span>OpenAI</span><span><a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">OpenAI Privacy Policy</a></span></div>
+            <div class="row"><span>xAI (Grok)</span><span><a href="https://x.ai/legal/privacy-policy" target="_blank" rel="noopener">xAI Privacy Policy</a></span></div>
+            <div class="row"><span>DeepSeek</span><span><a href="https://platform.deepseek.com/downloads/DeepSeek%20Privacy%20Policy.html" target="_blank" rel="noopener">DeepSeek Privacy Policy</a></span></div>
+            <div class="row"><span>A custom service you add</span><span>That service's own policy</span></div>
+          </div>
+          <p class="good"><b>Nothing leaves your computer</b> with Qwen in your browser, Ollama on your computer, Chrome's built-in AI, or quick translation only.</p>
+          <p class="tip">On a free Gemini key, Google may use what you send to improve its products. If that matters to you, use a paid key or one of the on-device options.</p>
+        </section>
 
-  <h2>4. Syncing with your phone</h2>
-  <p>SubLink AI and SuperHap talk to each other directly over your home Wi-Fi after you pair them with a one-time code. Your words, review progress and live subtitle lines go straight from your computer to your phone and back, and never through the internet or us. Your phone only answers the computer it was paired with, which proves itself with a key made when you paired. This traffic stays inside your home network, but apart from your AI key it isn't encrypted, so only sync on a Wi-Fi network you trust. If you turn on "Let my phone use my Gemini key", your key is encrypted with the pairing key on the way and stored in your phone's secure storage.</p>
-  <p>To find your phone again when its Wi-Fi address changes, the extension may check the other devices on your home network for SuperHap. It only sends a check that your own paired phone can answer.</p>
+        <section id="subtitles" class="card">
+          <h2><span class="n">3</span>Reading subtitles</h2>
+          <p>On Netflix, Prime Video and YouTube, the extension reads the subtitles shown on the page, and the subtitle tracks the episode offers, so it can explain and translate them. They're kept in the browser's memory while you watch, and only sent anywhere as part of an AI request you make (section 2) or to your own phone (section 4). The extension doesn't run on any other website.</p>
+        </section>
 
-  <h2>5. Downloads</h2>
-  <p>If you choose an offline voice, offline translation or in-browser AI, the model files are downloaded once from Hugging Face (huggingface.co) or the model's publisher. Like any website, they can see your IP address when you download. See the <a href="https://huggingface.co/privacy" target="_blank" rel="noopener">Hugging Face privacy policy</a>.</p>
+        <section id="sync" class="card">
+          <h2><span class="n">4</span>Syncing with your phone</h2>
+          <p>SubLink AI and SuperHap talk to each other directly over your home Wi-Fi, after you pair them once with a code. Your words, review progress and live subtitle lines go straight between your computer and your phone, never through the internet or us.</p>
+          <p>Your phone only answers the computer it was paired with, which proves itself with a key made when you paired. This traffic stays inside your home network, but apart from your AI key it isn't encrypted, so only sync on a Wi-Fi network you trust. If you turn on <b>Let my phone use my Gemini key</b>, your key is encrypted with the pairing key on the way and stored in your phone's secure storage.</p>
+          <p>If your phone's Wi-Fi address changes, the extension may check the other devices on your home network to find it again. Only your own paired phone can answer that check.</p>
+        </section>
 
-  <h2>6. Payments</h2>
-  <ul>
-    <li><strong>Tips in the extension</strong> are handled by Stripe on Stripe's own page. Stripe receives your card details and email. We only receive the amount, your email and your country, and never your full card number. See <a href="https://stripe.com/privacy" target="_blank" rel="noopener">stripe.com/privacy</a>.</li>
-    <li><strong>Unlocking SuperHap</strong> is a purchase through Apple. Apple handles the payment and tells the app only that the purchase was made. See <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's privacy policy</a>.</li>
-  </ul>
+        <section id="downloads" class="card">
+          <h2><span class="n">5</span>Downloads</h2>
+          <p>If you choose an offline voice, offline translation or in-browser AI, its model files are downloaded once from Hugging Face. Like any website, Hugging Face can see your IP address when you download. See the <a href="https://huggingface.co/privacy" target="_blank" rel="noopener">Hugging Face privacy policy</a>.</p>
+        </section>
 
-  <h2>7. iPhone permissions</h2>
-  <ul>
-    <li><strong>Microphone:</strong> only while you hold "talk to Hap" or practise pronunciation. The recording is sent to Google Gemini to be written down (section 2) and isn't kept.</li>
-    <li><strong>Local network:</strong> to sync with SubLink AI on your computer (section 4).</li>
-    <li><strong>Notifications:</strong> your daily review reminder, scheduled on the phone itself.</li>
-  </ul>
+        <section id="payments" class="card">
+          <h2><span class="n">6</span>Payments</h2>
+          <div class="duo">
+            <div><h3>☕ Tips in the extension</h3><p>Handled by Stripe on Stripe's own page. Stripe receives your card details and email. We only see the amount, your email and your country, never your full card number. <a href="https://stripe.com/privacy" target="_blank" rel="noopener">Stripe Privacy Policy</a></p></div>
+            <div><h3>🔓 Unlocking SuperHap</h3><p>A purchase through Apple. Apple handles the payment and only tells the app that the purchase was made. <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple Privacy Policy</a></p></div>
+          </div>
+        </section>
 
-  <h2>8. What we don't do</h2>
-  <ul>
-    <li>We don't have accounts, and we don't collect your name or email in the apps.</li>
-    <li>We don't use analytics, advertising or tracking tools, and we don't track you across other apps or websites.</li>
-    <li>We don't sell or share your data.</li>
-  </ul>
+        <section id="iphone" class="card">
+          <h2><span class="n">7</span>iPhone permissions</h2>
+          <div class="perms">
+            <div><span class="ico">🎤</span><p><b>Microphone</b> only while you tap to talk to Hap or practise pronunciation. The recording goes to Google Gemini to be written down (section 2) and isn't kept.</p></div>
+            <div><span class="ico">📶</span><p><b>Local network</b> to sync with SubLink AI on your computer (section 4).</p></div>
+            <div><span class="ico">🔔</span><p><b>Notifications</b> for your daily review reminder, scheduled on the phone itself.</p></div>
+          </div>
+        </section>
 
-  <h2>9. Children</h2>
-  <p>The apps are not directed at children under 13, and we don't knowingly collect information from them. The apps themselves don't collect personal information from anyone (section 8).</p>
+        <section id="dont" class="card">
+          <h2><span class="n">8</span>What we don't do</h2>
+          <ul class="checks">
+            <li>We don't have accounts, and we don't collect your name or email in the apps.</li>
+            <li>We don't use analytics, advertising or tracking tools, and we don't track you across other apps or websites.</li>
+            <li>We don't sell or share your data.</li>
+          </ul>
+        </section>
 
-  <h2>10. Help and links</h2>
-  <p>"Get help" and "Report a bug" open our Discord server. Discord's own privacy policy applies there.</p>
+        <section id="children" class="card">
+          <h2><span class="n">9</span>Children</h2>
+          <p>The apps aren't directed at children under 13, and we don't knowingly collect information from them. The apps don't collect personal information from anyone (section 8).</p>
+        </section>
 
-  <h2>11. Changes</h2>
-  <p>If this policy changes, we'll update this page and the date at the top.</p>
+        <section id="help" class="card">
+          <h2><span class="n">10</span>Help, changes &amp; contact</h2>
+          <p><b>Get help</b> and <b>Report a bug</b> open our Discord server, where Discord's own privacy policy applies.</p>
+          <p>If this policy changes, we'll update this page and the date at the top.</p>
+          <a class="button" href="https://discord.gg/qkDSwCfN" target="_blank" rel="noopener">💬 Ask us on Discord</a>
+        </section>
+      </div>
+    </div>
+  </main>
 
-  <h2>12. Contact</h2>
-  <p>Questions about privacy: ask in our <a href="https://discord.gg/qkDSwCfN" target="_blank" rel="noopener">Discord help channel</a>.</p>
-</main>
+  <footer class="foot">
+    <div class="wrap">
+      <span>© 2026 Alethetic Labs · Calgary, Alberta, Canada</span>
+      <span><a href="credits.html">Credits &amp; licences</a> · <a href="https://discord.gg/qkDSwCfN" target="_blank" rel="noopener">Discord</a></span>
+    </div>
+  </footer>
 </body>
 </html>

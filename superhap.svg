@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<!-- Cubwise: a happy panda cub munching a bamboo stalk --><defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5BAF6E"/><stop offset="1" stop-color="#2F7A47"/></linearGradient>
+  <radialGradient id="face" cx="0.45" cy="0.35" r="0.75"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#ECEFE8"/></radialGradient>
+  <linearGradient id="stalk" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2FA84F"/><stop offset=".35" stop-color="#7FD957"/><stop offset=".6" stop-color="#A9EC63"/><stop offset="1" stop-color="#37B04F"/></linearGradient>
+  <linearGradient id="joint" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1E8A3F"/><stop offset=".45" stop-color="#5CC94E"/><stop offset="1" stop-color="#1E8A3F"/></linearGradient>
+  <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A6EE5F"/><stop offset="1" stop-color="#27A04A"/></linearGradient>
+</defs>
+<rect width="512" height="512" rx="112" fill="url(#bg)"/>
+<circle cx="140" cy="150" r="62" fill="#1E2621"/><circle cx="372" cy="150" r="62" fill="#1E2621"/>
+<circle cx="140" cy="150" r="28" fill="#3A443E"/><circle cx="372" cy="150" r="28" fill="#3A443E"/>
+<ellipse cx="256" cy="268" rx="178" ry="156" fill="url(#face)"/>
+<ellipse cx="180" cy="250" rx="46" ry="58" transform="rotate(-32 180 250)" fill="#1E2621"/>
+<ellipse cx="332" cy="250" rx="46" ry="58" transform="rotate(32 332 250)" fill="#1E2621"/>
+<path d="M160 256 q22 -24 44 0" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round"/>
+<path d="M308 256 q22 -24 44 0" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round"/>
+<ellipse cx="146" cy="318" rx="30" ry="18" fill="#F6B3A6"/><ellipse cx="366" cy="318" rx="30" ry="18" fill="#F6B3A6"/>
+<path d="M248 290 q14 -9 28 0 q-3 12 -14 14 q-11 -2 -14 -14z" fill="#1E2621"/>
+<!-- the stalk, coming up from below into the mouth -->
+<!-- the mouth, behind the bamboo: soft and warm -->
+<ellipse cx="264" cy="330" rx="38" ry="24" fill="#B8505A"/><ellipse cx="264" cy="318" rx="24" ry="9" fill="#E8848A"/>
+<g transform="translate(-14 0) rotate(14 256 420)">
+  <!-- leaves behind the stalk -->
+  <path d="M290 396 q44 -44 92 -34 q-26 48 -92 34z" fill="url(#leaf)" stroke="#14592B" stroke-width="4" stroke-linejoin="round"/><path d="M294 394 q40 -16 82 -30" fill="none" stroke="#14592B" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  <path d="M224 396 q-60 -46 -112 -28 q38 50 112 28z" fill="url(#leaf)" stroke="#14592B" stroke-width="4" stroke-linejoin="round"/><path d="M218 394 q-44 -16 -100 -24" fill="none" stroke="#14592B" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  <!-- the stalk -->
+  <rect x="224" y="326" width="64" height="176" rx="18" fill="url(#stalk)" stroke="#14592B" stroke-width="5"/>
+  <!-- gloss -->
+  <rect x="238" y="340" width="10" height="46" rx="5" fill="#fff" opacity=".55"/>
+  <rect x="238" y="414" width="10" height="66" rx="5" fill="#fff" opacity=".45"/>
+  <!-- joints -->
+  <rect x="218" y="394" width="76" height="14" rx="7" fill="url(#joint)" stroke="#14592B" stroke-width="4"/>
+  <!-- the bitten top: pale and fresh -->
+  <ellipse cx="256" cy="336" rx="31" ry="11" fill="#F2FBC8" stroke="#14592B" stroke-width="4"/>
+  <ellipse cx="256" cy="336" rx="18" ry="5" fill="#D6F08F"/>
+  <!-- the stalk's cut end -->
+  <ellipse cx="256" cy="498" rx="31" ry="11" fill="#E9F8B4" stroke="#14592B" stroke-width="4"/>
+  <ellipse cx="256" cy="498" rx="18" ry="5" fill="#C4E77E"/>
+</g>
+<!-- the smile around the bite -->
+<path d="M224 334 q-11 -2 -15 -13 M304 334 q11 -2 15 -13" fill="none" stroke="#1E2621" stroke-width="6" stroke-linecap="round"/>
+<!-- paws holding it -->
+<ellipse cx="208" cy="430" rx="40" ry="34" fill="#1E2621"/><ellipse cx="318" cy="452" rx="40" ry="34" fill="#1E2621"/>
+<g id="bolt" transform="translate(452 76) rotate(10) scale(0.72)"><path d="M14 -78 L-44 12 L-6 12 L-18 78 L44 -14 L6 -14 Z" fill="#FFD23F" stroke="#1E2621" stroke-width="9" stroke-linejoin="round"/></g></svg>
